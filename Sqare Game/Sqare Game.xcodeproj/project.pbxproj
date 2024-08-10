@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB4EBE842C6729190044B534 /* Sqare_GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4EBE832C6729190044B534 /* Sqare_GameApp.swift */; };
+		DB4EBE862C6729190044B534 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4EBE852C6729190044B534 /* ContentView.swift */; };
+		DB4EBE882C67291A0044B534 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4EBE872C67291A0044B534 /* Assets.xcassets */; };
+		DB4EBE8B2C67291A0044B534 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB4EBE8A2C67291A0044B534 /* Preview Assets.xcassets */; };
+		DB4EBE952C67291A0044B534 /* Sqare_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4EBE942C67291A0044B534 /* Sqare_GameTests.swift */; };
+		DB4EBE9F2C67291A0044B534 /* Sqare_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4EBE9E2C67291A0044B534 /* Sqare_GameUITests.swift */; };
+		DB4EBEA12C67291A0044B534 /* Sqare_GameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB4EBEA02C67291A0044B534 /* Sqare_GameUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB4EBE912C67291A0044B534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4EBE782C6729190044B534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4EBE7F2C6729190044B534;
+			remoteInfo = "Sqare Game";
+		};
+		DB4EBE9B2C67291A0044B534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB4EBE782C6729190044B534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB4EBE7F2C6729190044B534;
+			remoteInfo = "Sqare Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB4EBE802C6729190044B534 /* Sqare Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sqare Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4EBE832C6729190044B534 /* Sqare_GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqare_GameApp.swift; sourceTree = "<group>"; };
+		DB4EBE852C6729190044B534 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DB4EBE872C67291A0044B534 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB4EBE8A2C67291A0044B534 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DB4EBE902C67291A0044B534 /* Sqare GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sqare GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4EBE942C67291A0044B534 /* Sqare_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqare_GameTests.swift; sourceTree = "<group>"; };
+		DB4EBE9A2C67291A0044B534 /* Sqare GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sqare GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4EBE9E2C67291A0044B534 /* Sqare_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqare_GameUITests.swift; sourceTree = "<group>"; };
+		DB4EBEA02C67291A0044B534 /* Sqare_GameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sqare_GameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB4EBE7D2C6729190044B534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4EBE8D2C67291A0044B534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4EBE972C67291A0044B534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB4EBE772C6729190044B534 = {
+			isa = PBXGroup;
+			children = (
+				DB4EBE822C6729190044B534 /* Sqare Game */,
+				DB4EBE932C67291A0044B534 /* Sqare GameTests */,
+				DB4EBE9D2C67291A0044B534 /* Sqare GameUITests */,
+				DB4EBE812C6729190044B534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB4EBE812C6729190044B534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB4EBE802C6729190044B534 /* Sqare Game.app */,
+				DB4EBE902C67291A0044B534 /* Sqare GameTests.xctest */,
+				DB4EBE9A2C67291A0044B534 /* Sqare GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB4EBE822C6729190044B534 /* Sqare Game */ = {
+			isa = PBXGroup;
+			children = (
+				DB4EBE832C6729190044B534 /* Sqare_GameApp.swift */,
+				DB4EBE852C6729190044B534 /* ContentView.swift */,
+				DB4EBE872C67291A0044B534 /* Assets.xcassets */,
+				DB4EBE892C67291A0044B534 /* Preview Content */,
+			);
+			path = "Sqare Game";
+			sourceTree = "<group>";
+		};
+		DB4EBE892C67291A0044B534 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DB4EBE8A2C67291A0044B534 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DB4EBE932C67291A0044B534 /* Sqare GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB4EBE942C67291A0044B534 /* Sqare_GameTests.swift */,
+			);
+			path = "Sqare GameTests";
+			sourceTree = "<group>";
+		};
+		DB4EBE9D2C67291A0044B534 /* Sqare GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB4EBE9E2C67291A0044B534 /* Sqare_GameUITests.swift */,
+				DB4EBEA02C67291A0044B534 /* Sqare_GameUITestsLaunchTests.swift */,
+			);
+			path = "Sqare GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB4EBE7F2C6729190044B534 /* Sqare Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4EBEA42C67291A0044B534 /* Build configuration list for PBXNativeTarget "Sqare Game" */;
+			buildPhases = (
+				DB4EBE7C2C6729190044B534 /* Sources */,
+				DB4EBE7D2C6729190044B534 /* Frameworks */,
+				DB4EBE7E2C6729190044B534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sqare Game";
+			productName = "Sqare Game";
+			productReference = DB4EBE802C6729190044B534 /* Sqare Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB4EBE8F2C67291A0044B534 /* Sqare GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4EBEA72C67291A0044B534 /* Build configuration list for PBXNativeTarget "Sqare GameTests" */;
+			buildPhases = (
+				DB4EBE8C2C67291A0044B534 /* Sources */,
+				DB4EBE8D2C67291A0044B534 /* Frameworks */,
+				DB4EBE8E2C67291A0044B534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4EBE922C67291A0044B534 /* PBXTargetDependency */,
+			);
+			name = "Sqare GameTests";
+			productName = "Sqare GameTests";
+			productReference = DB4EBE902C67291A0044B534 /* Sqare GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB4EBE992C67291A0044B534 /* Sqare GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4EBEAA2C67291A0044B534 /* Build configuration list for PBXNativeTarget "Sqare GameUITests" */;
+			buildPhases = (
+				DB4EBE962C67291A0044B534 /* Sources */,
+				DB4EBE972C67291A0044B534 /* Frameworks */,
+				DB4EBE982C67291A0044B534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB4EBE9C2C67291A0044B534 /* PBXTargetDependency */,
+			);
+			name = "Sqare GameUITests";
+			productName = "Sqare GameUITests";
+			productReference = DB4EBE9A2C67291A0044B534 /* Sqare GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB4EBE782C6729190044B534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					DB4EBE7F2C6729190044B534 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					DB4EBE8F2C67291A0044B534 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DB4EBE7F2C6729190044B534;
+					};
+					DB4EBE992C67291A0044B534 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = DB4EBE7F2C6729190044B534;
+					};
+				};
+			};
+			buildConfigurationList = DB4EBE7B2C6729190044B534 /* Build configuration list for PBXProject "Sqare Game" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB4EBE772C6729190044B534;
+			productRefGroup = DB4EBE812C6729190044B534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB4EBE7F2C6729190044B534 /* Sqare Game */,
+				DB4EBE8F2C67291A0044B534 /* Sqare GameTests */,
+				DB4EBE992C67291A0044B534 /* Sqare GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB4EBE7E2C6729190044B534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4EBE8B2C67291A0044B534 /* Preview Assets.xcassets in Resources */,
+				DB4EBE882C67291A0044B534 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4EBE8E2C67291A0044B534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4EBE982C67291A0044B534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB4EBE7C2C6729190044B534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4EBE862C6729190044B534 /* ContentView.swift in Sources */,
+				DB4EBE842C6729190044B534 /* Sqare_GameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4EBE8C2C67291A0044B534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4EBE952C67291A0044B534 /* Sqare_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB4EBE962C67291A0044B534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB4EBE9F2C67291A0044B534 /* Sqare_GameUITests.swift in Sources */,
+				DB4EBEA12C67291A0044B534 /* Sqare_GameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB4EBE922C67291A0044B534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4EBE7F2C6729190044B534 /* Sqare Game */;
+			targetProxy = DB4EBE912C67291A0044B534 /* PBXContainerItemProxy */;
+		};
+		DB4EBE9C2C67291A0044B534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB4EBE7F2C6729190044B534 /* Sqare Game */;
+			targetProxy = DB4EBE9B2C67291A0044B534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DB4EBEA22C67291A0044B534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB4EBEA32C67291A0044B534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB4EBEA52C67291A0044B534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sqare Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arosha-Ravishan.Sqare-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB4EBEA62C67291A0044B534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sqare Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arosha-Ravishan.Sqare-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB4EBEA82C67291A0044B534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arosha-Ravishan.Sqare-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sqare Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sqare Game";
+			};
+			name = Debug;
+		};
+		DB4EBEA92C67291A0044B534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arosha-Ravishan.Sqare-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sqare Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sqare Game";
+			};
+			name = Release;
+		};
+		DB4EBEAB2C67291A0044B534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arosha-Ravishan.Sqare-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sqare Game";
+			};
+			name = Debug;
+		};
+		DB4EBEAC2C67291A0044B534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Arosha-Ravishan.Sqare-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sqare Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB4EBE7B2C6729190044B534 /* Build configuration list for PBXProject "Sqare Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4EBEA22C67291A0044B534 /* Debug */,
+				DB4EBEA32C67291A0044B534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4EBEA42C67291A0044B534 /* Build configuration list for PBXNativeTarget "Sqare Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4EBEA52C67291A0044B534 /* Debug */,
+				DB4EBEA62C67291A0044B534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4EBEA72C67291A0044B534 /* Build configuration list for PBXNativeTarget "Sqare GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4EBEA82C67291A0044B534 /* Debug */,
+				DB4EBEA92C67291A0044B534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4EBEAA2C67291A0044B534 /* Build configuration list for PBXNativeTarget "Sqare GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB4EBEAB2C67291A0044B534 /* Debug */,
+				DB4EBEAC2C67291A0044B534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB4EBE782C6729190044B534 /* Project object */;
+}
